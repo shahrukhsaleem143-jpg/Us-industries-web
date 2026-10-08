@@ -183,7 +183,7 @@
     }, interval);
   }
   rotate($$(".hero-slide"), 7000);
-  var captions = ["3-end fleece, all-over print", "Washed jersey, high-density print", "Cotton jersey, print with stone trim"];
+  var captions = ["Garment-dyed fleece, 280 GSM", "Ribbed thermal knit", "Heavyweight fleece, 280 GSM"];
   var lookCount = $(".look-count");
   var lookCaption = $(".look-caption");
   rotate($$(".look"), 4500, function (i) {

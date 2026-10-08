@@ -131,45 +131,34 @@ def main(profile_dir, catalog_dir):
 
     # --- Campaign photography from the profile collage ---
     collage = Image.open(os.path.join(profile_dir, "image.jpeg")).convert("RGB")
-    campaign = {
-        "legend": (0, 0, 328, 648),
-        "weekend": (352, 0, 981, 423),
-        "essential": (1005, 0, 1333, 648),
-        "group": (352, 448, 981, 872),
-        "thermal": (0, 672, 328, 1321),
-        "wolf": (352, 896, 981, 1320),
-        "flight": (1005, 672, 1333, 1320),
-        "voltage": (0, 1345, 667, 1989),
-        "ultimate": (678, 1345, 1333, 1999),
-    }
+    # Only the plain thermal crew is used: every other campaign shot carries
+    # third-party artwork or brand marks. Cropped above the hem label.
+    campaign = {"thermal": (0, 672, 328, 1212)}
     for name, box in campaign.items():
-        save(collage.crop(box), f"campaign/{name}.webp", quality=80)
+        save(collage.crop(box), f"campaign/{name}.webp", quality=82)
 
     # --- Product catalogue ---
     def cat(i):
         return Image.open(glob.glob(os.path.join(catalog_dir, f"image{i}.*"))[0])
 
-    # Slides whose artwork carries third-party marks or characters are left out.
-    skip = {1, 2, 11, 20, 21, 22, 34}
-    for path in glob.glob(os.path.join(catalog_dir, "image*")):
-        stem = os.path.splitext(os.path.basename(path))[0]
-        n = int(stem.replace("image", ""))
-        if n in skip or path.endswith(".emf"):
-            continue
-        save(remove_corner_mark(Image.open(path)), f"products/p{n:02d}.webp",
+    # Plain / base garments only. Slides with third-party artwork, logos or
+    # brand marks are not used anywhere on the site.
+    keep = {12, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50}
+    for n in sorted(keep):
+        save(remove_corner_mark(cat(n)), f"products/p{n:02d}.webp",
              max_w=1000, quality=80, sizes=(560,))
 
     # --- Craft close-ups cropped from catalogue shots ---
     details = {
         "wash-texture": (12, (0.26, 0.36, 0.70, 0.66)),
-        "stones": (19, (0.10, 0.56, 0.88, 0.84)),
-        "puff-print": (9, (0.60, 0.38, 0.94, 0.64)),
-        "applique": (3, (0.10, 0.62, 0.52, 0.86)),
-        "embroidery": (29, (0.28, 0.32, 0.96, 0.62)),
         "rib-cuff": (40, (0.56, 0.68, 0.98, 0.93)),
+        "pocket": (40, (0.26, 0.56, 0.74, 0.82)),
         "raglan-seam": (47, (0.10, 0.08, 0.58, 0.46)),
         "fleece": (43, (0.30, 0.28, 0.72, 0.60)),
-        "chain-stones": (6, (0.22, 0.10, 0.78, 0.56)),
+        "zipper": (41, (0.38, 0.40, 0.70, 0.72)),
+        "placket": (46, (0.28, 0.08, 0.72, 0.46)),
+        "waffle": (42, (0.32, 0.44, 0.64, 0.76)),
+        "slub": (48, (0.28, 0.38, 0.72, 0.70)),
     }
     for name, (i, frac) in details.items():
         im = crop_frac(remove_corner_mark(cat(i)), *frac)

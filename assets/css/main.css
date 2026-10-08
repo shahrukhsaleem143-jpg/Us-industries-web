@@ -515,6 +515,7 @@ section { position: relative; }
 .craft-item figcaption { display: flex; gap: 12px; padding: 12px 0 18px; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); }
 .craft-item figcaption span { color: rgba(236, 233, 226, 0.35); }
 .craft-item .placeholder-box { aspect-ratio: 1; min-height: 0; }
+.tile-media .placeholder-box { position: absolute; inset: 0; min-height: 0; }
 .craft-item .placeholder-box p { font-size: 17px; }
 @media (min-width: 900px) {
   .craft-head { grid-template-columns: repeat(12, 1fr); align-items: end; }
