@@ -1,0 +1,540 @@
+{
+ "categories": [
+  {
+   "id": "tees",
+   "label": "T-Shirts"
+  },
+  {
+   "id": "fleece",
+   "label": "Hoodies & Fleece"
+  },
+  {
+   "id": "bottoms",
+   "label": "Pants & Shorts"
+  },
+  {
+   "id": "sets",
+   "label": "Sets"
+  },
+  {
+   "id": "essentials",
+   "label": "Knit Essentials"
+  }
+ ],
+ "items": [
+  {
+   "image": "p12",
+   "name": "Mineral Wash Boxy Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Ribbed crew neck"
+   ],
+   "alt": "Charcoal mineral-wash oversized boxy t-shirt in 220 GSM cotton jersey"
+  },
+  {
+   "image": "p40",
+   "name": "Heavyweight Pullover Hoodie",
+   "category": "fleece",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Kangaroo pocket",
+    "Rib cuff & hem",
+    "Print / embroidery ready"
+   ],
+   "alt": "Black heavyweight oversized pullover hoodie with kangaroo pocket"
+  },
+  {
+   "image": "p14",
+   "name": "Flared Graphic Fleece Pant",
+   "category": "bottoms",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized",
+   "techniques": [
+    "Graphic print",
+    "Stone embellishment"
+   ],
+   "alt": "Black flared fleece pant with printed graphics and stone embellishment"
+  },
+  {
+   "image": "p41",
+   "name": "Garment-Dyed Zip Hoodie",
+   "category": "fleece",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized, garment dyed",
+   "techniques": [
+    "YKK zipper",
+    "Double-layer hood",
+    "Premium drawcord"
+   ],
+   "alt": "Washed charcoal garment-dyed zip-through hoodie"
+  },
+  {
+   "image": "p06",
+   "name": "Chain Graphic Crop Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized crop boxy",
+   "techniques": [
+    "Discharge print",
+    "DMC stones"
+   ],
+   "alt": "Black cropped boxy tee with chain graphic in discharge print and DMC stones"
+  },
+  {
+   "image": "p19",
+   "name": "Flame Stone Hoodie",
+   "category": "fleece",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Stone embellishment",
+    "Rib cuff & hem"
+   ],
+   "alt": "Black oversized hoodie with flame artwork set in rhinestones"
+  },
+  {
+   "image": "p09",
+   "name": "Camo Patch Fleece Hoodie",
+   "category": "fleece",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Dye-over rotary print",
+    "Puff print",
+    "Patches"
+   ],
+   "alt": "Camouflage fleece hoodie with puff print and patches, front and back"
+  },
+  {
+   "image": "p10",
+   "name": "Camo Fleece Sweatpant",
+   "category": "bottoms",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized",
+   "techniques": [
+    "Dye-over rotary print",
+    "Puff print",
+    "Side pockets"
+   ],
+   "alt": "Camouflage fleece sweatpant with puff-print patches"
+  },
+  {
+   "image": "p08",
+   "name": "All-Over Camo Crop Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized crop boxy",
+   "techniques": [
+    "Dye-over rotary print",
+    "Puff print"
+   ],
+   "alt": "All-over camouflage cropped boxy t-shirt, front and back"
+  },
+  {
+   "image": "p03",
+   "name": "Camo Applique Boxy Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Camo screen print",
+    "Patches",
+    "Embroidery"
+   ],
+   "alt": "Black boxy tee with camouflage screen print and embroidered patches"
+  },
+  {
+   "image": "p04",
+   "name": "Graphic Fleece Hoodie Set",
+   "category": "sets",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized crop boxy",
+   "techniques": [
+    "Oval print",
+    "Rib cuff & hem"
+   ],
+   "alt": "Cream fleece hoodie and sweatpant set with printed artwork"
+  },
+  {
+   "image": "p05",
+   "name": "Spray-Wash Sleeveless Jersey",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Spray wash",
+    "Oval print",
+    "Stone detailing"
+   ],
+   "alt": "Orange spray-wash sleeveless jersey with varsity print, front and back"
+  },
+  {
+   "image": "p16",
+   "name": "Oval Print Fleece Hoodie",
+   "category": "fleece",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Oval print",
+    "Stone embellishment"
+   ],
+   "alt": "Black oversized hoodie with full-colour front print and stones"
+  },
+  {
+   "image": "p17",
+   "name": "Stone Trim Fleece Hoodie",
+   "category": "fleece",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Print",
+    "Stone trim",
+    "Rib cuff & hem"
+   ],
+   "alt": "Black cropped hoodie with stone-trimmed hood and cuffs"
+  },
+  {
+   "image": "p15",
+   "name": "Graphic Fleece Pant",
+   "category": "bottoms",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized",
+   "techniques": [
+    "Screen print"
+   ],
+   "alt": "Black fleece pant with bold screen-printed graphics"
+  },
+  {
+   "image": "p32",
+   "name": "Stone Flame Fleece Short",
+   "category": "bottoms",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized",
+   "techniques": [
+    "Stone embellishment",
+    "Elastic waistband"
+   ],
+   "alt": "Cobalt fleece shorts with rhinestone flame detail"
+  },
+  {
+   "image": "p13",
+   "name": "Camo Stripe Fleece Short",
+   "category": "bottoms",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Oversized",
+   "techniques": [
+    "Camo print",
+    "Contrast side stripes"
+   ],
+   "alt": "Camouflage fleece shorts with contrast side stripes"
+  },
+  {
+   "image": "p07",
+   "name": "Stone-Set Boxy Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Stone embellishment",
+    "Ribbed crew neck"
+   ],
+   "alt": "Black boxy tee with multicolour stone lettering"
+  },
+  {
+   "image": "p18",
+   "name": "Stone-Set Muscle Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Stone embellishment"
+   ],
+   "alt": "Red sleeveless muscle tee with rhinestone artwork"
+  },
+  {
+   "image": "p24",
+   "name": "Washed Graphic Boxy Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Stone embellishment"
+   ],
+   "alt": "Black washed boxy tee with large front graphic and stones"
+  },
+  {
+   "image": "p25",
+   "name": "Shield Graphic Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Oval print",
+    "Stones"
+   ],
+   "alt": "Black boxy tee with shield graphic and stone outline"
+  },
+  {
+   "image": "p26",
+   "name": "Embellished Wing Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Oval print",
+    "Stone embellishment"
+   ],
+   "alt": "Sand boxy tee with embellished wing artwork, front and back"
+  },
+  {
+   "image": "p27",
+   "name": "Tour Graphic Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Stone embellishment"
+   ],
+   "alt": "Black washed tour-style graphic tee"
+  },
+  {
+   "image": "p28",
+   "name": "Statue Graphic Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Oval print",
+    "Stones"
+   ],
+   "alt": "Black tee with statue graphic and stone detail"
+  },
+  {
+   "image": "p29",
+   "name": "Applique Embroidered Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Regular",
+   "techniques": [
+    "Applique",
+    "Embroidery",
+    "Stones"
+   ],
+   "alt": "White tee with appliqued and embroidered crest"
+  },
+  {
+   "image": "p30",
+   "name": "Varsity Trim Graphic Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Oval print",
+    "Stones"
+   ],
+   "alt": "Black boxy tee with varsity sleeve trim and eagle graphic"
+  },
+  {
+   "image": "p31",
+   "name": "Embellished Graphic Boxy Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Oval print",
+    "Stones"
+   ],
+   "alt": "Black boxy tee with eye graphic and stone embellishment"
+  },
+  {
+   "image": "p33",
+   "name": "Washed Oversized Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Mineral wash",
+    "Oval print"
+   ],
+   "alt": "Black washed oversized tee with statue print"
+  },
+  {
+   "image": "p35",
+   "name": "Oversized Graphic Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Oval print",
+    "Stone embellishment"
+   ],
+   "alt": "Black oversized graphic tee with full-colour print"
+  },
+  {
+   "image": "p37",
+   "name": "Printed Fleece Hoodie",
+   "category": "fleece",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Oval print",
+    "Stone embellishment"
+   ],
+   "alt": "Black hoodie with full-colour print and stone-studded sleeves"
+  },
+  {
+   "image": "p38",
+   "name": "Oval Print Jersey",
+   "category": "tees",
+   "fabric": "220 GSM cotton",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "Oval print",
+    "Stone embellishment"
+   ],
+   "alt": "White oversized tee with large graphic and stone detail"
+  },
+  {
+   "image": "p39",
+   "name": "Print & Stone Crop Tee",
+   "category": "tees",
+   "fabric": "220 GSM cotton jersey",
+   "fit": "Oversized crop boxy",
+   "techniques": [
+    "Screen print",
+    "DMC stones"
+   ],
+   "alt": "Black cropped tees with print and stones, front and back"
+  },
+  {
+   "image": "p36",
+   "name": "Kids Graphic Fleece Hoodie",
+   "category": "fleece",
+   "fabric": "320 GSM 3-end fleece",
+   "fit": "Oversized boxy",
+   "techniques": [
+    "All-over print",
+    "Rib hem & cuff"
+   ],
+   "alt": "Grey kids hoodie with playful all-over prints"
+  },
+  {
+   "image": "p43",
+   "name": "Fleece Crew Sweatshirt",
+   "category": "fleece",
+   "fabric": "280 GSM 3-end fleece",
+   "fit": "Relaxed",
+   "techniques": [
+    "Rib cuff & hem"
+   ],
+   "alt": "Heather grey relaxed fleece crewneck sweatshirt"
+  },
+  {
+   "image": "p44",
+   "name": "Thermal Layering Set",
+   "category": "sets",
+   "fabric": "220 GSM thermal knit",
+   "fit": "Relaxed",
+   "techniques": [
+    "Soft finish",
+    "Comfort stretch"
+   ],
+   "alt": "White and grey thermal top and pant layering sets"
+  },
+  {
+   "image": "p42",
+   "name": "Thermal Henley",
+   "category": "essentials",
+   "fabric": "220 GSM thermal knit",
+   "fit": "Regular / relaxed",
+   "techniques": [
+    "3-button placket",
+    "Vintage-wash compatible"
+   ],
+   "alt": "Olive long-sleeve thermal henley"
+  },
+  {
+   "image": "p45",
+   "name": "Peach Jersey Crew",
+   "category": "essentials",
+   "fabric": "240 GSM peach-finish jersey",
+   "fit": "Body fit",
+   "techniques": [
+    "Peach finish",
+    "Garment-dye compatible"
+   ],
+   "alt": "Blush peach-finish jersey crew neck tee"
+  },
+  {
+   "image": "p46",
+   "name": "Peach Jersey Henley",
+   "category": "essentials",
+   "fabric": "240 GSM peach-finish jersey",
+   "fit": "Relaxed",
+   "techniques": [
+    "3-button placket",
+    "Soft-touch finish"
+   ],
+   "alt": "Ecru peach-finish long-sleeve henley"
+  },
+  {
+   "image": "p47",
+   "name": "Raglan Henley",
+   "category": "essentials",
+   "fabric": "240 GSM peach-finish jersey",
+   "fit": "Modern",
+   "techniques": [
+    "Raglan sleeve",
+    "Contrast stitch option"
+   ],
+   "alt": "Grey and navy raglan-sleeve henley"
+  },
+  {
+   "image": "p48",
+   "name": "Slub Jersey V-Neck",
+   "category": "essentials",
+   "fabric": "150 GSM slub jersey",
+   "fit": "Women's fashion fit",
+   "techniques": [
+    "Slub texture",
+    "Fashion-wash compatible"
+   ],
+   "alt": "Pink women's slub jersey v-neck tee"
+  },
+  {
+   "image": "p49",
+   "name": "Slub Jersey Scoop Neck",
+   "category": "essentials",
+   "fabric": "150 GSM slub jersey",
+   "fit": "Relaxed",
+   "techniques": [
+    "Slub texture",
+    "Breathable"
+   ],
+   "alt": "Sage women's slub jersey scoop-neck tee"
+  },
+  {
+   "image": "p50",
+   "name": "Tubular Tee",
+   "category": "essentials",
+   "fabric": "180 GSM cotton jersey",
+   "fit": "Classic",
+   "techniques": [
+    "Tubular body",
+    "No side seam",
+    "Print ready"
+   ],
+   "alt": "White tubular-knit t-shirt with no side seams"
+  }
+ ]
+}
