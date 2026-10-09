@@ -127,6 +127,8 @@
     hscroll.classList.toggle("is-pinned", want);
     hPinned = want;
     if (want) {
+      // Mobile scroll-snap may have scrolled the strip before pinning took over.
+      $(".scale-sticky", hscroll).scrollLeft = 0;
       var distance = hTrack.scrollWidth - window.innerWidth;
       hscroll.style.height = (window.innerHeight + distance) + "px";
     } else {

@@ -32,12 +32,11 @@ def save(im, rel, max_w=None, quality=80, sizes=()):
             small.save(path.replace(".webp", f"-{w}.webp"), "WEBP", quality=quality, method=6)
 
 
-def editorial_mono(im, contrast=1.18, brightness=0.96):
-    """Black-and-white grade with lifted contrast for factory photography."""
-    g = ImageOps.grayscale(im)
-    g = ImageEnhance.Contrast(g).enhance(contrast)
-    g = ImageEnhance.Brightness(g).enhance(brightness)
-    return g.filter(ImageFilter.UnsharpMask(radius=1.2, percent=60, threshold=2))
+def editorial_grade(im, contrast=1.1, saturation=1.08):
+    """Full-colour grade for factory photography: a little more contrast and colour."""
+    im = ImageEnhance.Contrast(im).enhance(contrast)
+    im = ImageEnhance.Color(im).enhance(saturation)
+    return im.filter(ImageFilter.UnsharpMask(radius=1.2, percent=60, threshold=2))
 
 
 def _components(mask):
@@ -127,7 +126,7 @@ def main(profile_dir, catalog_dir):
         for c, (x0, x1) in enumerate(cols):
             panel = sheet.crop((x0, y0, x1, y1))
             panel = panel.resize((panel.width * 2, panel.height * 2), Image.LANCZOS)
-            save(editorial_mono(panel), f"factory/{names[r][c]}.webp", quality=74)
+            save(editorial_grade(panel), f"factory/{names[r][c]}.webp", quality=74)
 
     # --- Campaign photography from the profile collage ---
     collage = Image.open(os.path.join(profile_dir, "image.jpeg")).convert("RGB")

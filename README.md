@@ -36,18 +36,18 @@ The build adds `width`/`height`, lazy loading and `srcset` to every image automa
 
 ## Images
 
-`assets/img/` is generated from the two company decks by `tools/process_images.py` (Pillow and NumPy). The script crops the factory process sheet and campaign collage, grades factory photography to black and white, converts everything to WebP, and paints out the corner sparkle mark on catalogue shots where it sits on plain backdrop.
+`assets/img/` is generated from the two company decks by `tools/process_images.py` (Pillow and NumPy). The script crops the factory process sheet and campaign collage, gives factory photography a light colour grade, converts everything to WebP, and paints out the corner sparkle mark on catalogue shots where it sits on plain backdrop.
 
 ```bash
 python3 tools/process_images.py <profile.pptx>/ppt/media <catalogue.pptx>/ppt/media
 ```
 
-To use new photography, drop WebP files into `assets/img/…` and point the `src` attributes at them. For full-bleed and hero use, supply images at least 2000px wide. The current factory panels are small (about 380px originals), which is why they are used blurred, graded, or at modest sizes.
+To use new photography, drop WebP files into `assets/img/…` and point the `src` attributes at them. For full-bleed and hero use, supply images at least 2000px wide. The current factory panels are small (about 380px originals), which is why they are used blurred or at modest sizes.
 
 ## Before launch
 
 - **Contact form:** set `data-endpoint` on `#inquiry-form` in `src/pages/contact.html` to a form service URL (Formspree, Basin, or your own endpoint) to receive submissions and tech-pack uploads. Until then, submitting opens the visitor's email app with the brief pre-filled and addressed to `usoffice@usindustries.pk`.
-- **Placeholders:** office hours on the contact page, and the "Labels" photograph in the craft section on the home page.
+- **Placeholders:** office hours on the contact page; photographs for the Yarn Warehouse, Knitting and Sample Room departments; and the Shorts, Applique and Labels images on the home page.
 - **Domain:** canonical URLs, the sitemap and Open Graph tags assume `https://www.usindustries.pk`. Change `SITE` in `tools/build.mjs` and the sitemap line in `robots.txt` if the site launches on another domain.
 
 ## Content sources
